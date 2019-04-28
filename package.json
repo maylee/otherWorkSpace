@@ -1,0 +1,29 @@
+{
+  "name": "otherworkspace",
+  "version": "1.0.0",
+  "description": "집에서 작업하는 것",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maylee/otherWorkSpace.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "maylee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maylee/otherWorkSpace/issues"
+  },
+  "homepage": "https://github.com/maylee/otherWorkSpace#readme"
+}

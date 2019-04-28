@@ -2,6 +2,16 @@ var express = require('express');
 var app = express();
 const port = 3000
 
+//하위 모듈
+const productRoutes = require("./apt/routes/products");
+const orderRoutes = require("./apt/routes/orders");
+
+app.use('/orders', orderRoutes);
+app.use('/products', productRoutes);
+
+
+
+
 // 시작 메시지
 console.log('Server start!!!!');
 
